@@ -17,16 +17,18 @@ The dataset was cleaned to focus on offensive events by performing the follwing 
 - Removed all plays where "event == Out"  
 - Sorted remaining events by inning and event  
 - Assigned numeric codes to events for plotting purposes (e.g., Single = 4, Home Run = 2)
-- Number of outcomes analyzed was reduced from the initial >180,000 to just the first 100 events of the season.
+- Number of outcomes analyzed was reduced from the initial >180,000 to just the first 100 events of the season, by use of "head" function.
+- Outcomes were limited to the first 9 innings of a ballgame (no extra inning game data was used).
 
 
-## Visualizations
+## Visualizations (2 in total)
 ### 1. Multi-Line Chart
 - Displays the frequency of each offensive event across all 9 innings  
 - Each inning is represented as a separate colored line  
-- X-axis: Event types, Y-axis: Number of occurrences  
+- X-axis: Event/Outcome
+- Y-axis: Number of occurrences for each outcome 
 
 ### 2. 3×3 Subplot Grid
-- 3×3 layout showing one subplot per inning (1–9)  
-- Consistent axis scaling for easy comparison  
+- PLot contains the same information as the first plost, but the information is broken up across 9 subplots (1 per inning) this time.
+- Subplots are in a 3×3 layout 
 - Each subplot displays event frequencies using different colors and markers
