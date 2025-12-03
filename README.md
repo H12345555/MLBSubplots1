@@ -3,7 +3,7 @@
 This project analyzes **Major League Baseball (MLB) 2019 season at-bat data** using Python and Jupyter Notebook. Using a CSV file containing information for all the at-bats of the 2019 MLB season, I was able to transform and manipulate the data to break down different event types (Single, Double, Home Run, etc.) based on what inning they occurred across all MLB games for that year. The project demonstrates **data cleaning, transformation, and visualization skills** by exploring inning-level offensive patterns.
 
 
-## Data Description
+## Dataset and Data Description
 - **Dataset:** "2019_atbats.csv" (downloaded from Kaggle)  
 - **Size:** >185,000 at-bats (first 100 rows analyzed for demonstration)  
 - **Unnecessary columns removed:** "ab_id", "g_id", "batter_id", "pitcher_id"  
@@ -13,7 +13,7 @@ This project analyzes **Major League Baseball (MLB) 2019 season at-bat data** us
 
 
 ## Data Cleaning & Preprocessing
-The dataset was cleaned to focus on offensive events:
+The dataset was cleaned to focus on offensive events by performing the follwing transformations:
 - Dropped irrelevant columns  
 - Standardized all out-type events (Flyout, Lineout, Strikeout, etc.) to "Out"  
 - Removed all plays where "event == Out"  
