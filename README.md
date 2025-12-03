@@ -29,6 +29,8 @@ The dataset was cleaned to focus on offensive events by performing the follwing 
 - Y-axis: Number of occurrences for each outcome 
 
 ### 2. 3×3 Subplot Grid
-- PLot contains the same information as the first plost, but the information is broken up across 9 subplots (1 per inning) this time.
+- Plot contains the same information as the first plost, but the information is broken up across 9 subplots (1 per inning) this time.
 - Subplots are in a 3×3 layout 
 - Each subplot displays event frequencies using different colors and markers
+- X-axis: Event/Outcome
+- Y-axis: Number of occurrences for each outcome 
