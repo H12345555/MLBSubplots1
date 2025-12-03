@@ -15,11 +15,11 @@ This project analyzes **Major League Baseball (MLB) 2019 season at-bat data** us
 The dataset was cleaned to focus on offensive events by performing the following transformations:
 
 - Dropped irrelevant columns (`ab_id`, `g_id`, `batter_id`, `pitcher_id`)  
-- Standardized all out-type events (Flyout, Lineout, Strikeout, etc.) to `"Out"`  
+- Standardized all out-type events (`Flyout`, `Lineout`, `Strikeout`, etc.) to `"Out"`  
 - Removed all plays where `event == "Out"`  
 - Sorted remaining events by inning and event  
 - Assigned numeric codes to events for plotting purposes (e.g., Single = 4, Home Run = 2)  
-- Limited analysis to the first 100 events of the season using the `head` function  
+- Limited analysis from the initial 185,000+ at-bats to just the first 100 at-bats of the season using the `head` function  
 - Considered only the first 9 innings of a game (no extra-inning data used)
 
 ## Visualizations
