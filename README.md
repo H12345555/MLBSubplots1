@@ -4,22 +4,22 @@ This project analyzes **Major League Baseball (MLB) 2019 season at-bat data** us
 
 
 ## Data Description
-- **Dataset:** `2019_atbats.csv` (downloaded from Kaggle)  
+- **Dataset:** "2019_atbats.csv" (downloaded from Kaggle)  
 - **Size:** >185,000 at-bats (first 100 rows analyzed for demonstration)  
-- **Unnecessary columns removed:** `ab_id`, `g_id`, `batter_id`, `pitcher_id`  
+- **Unnecessary columns removed:** "ab_id", "g_id", "batter_id", "pitcher_id"  
 - **Key Columns Used:**
-  - `inning` — inning number  
-  - `event` — outcome of the at-bat (Single, Double, Walk, Home Run, etc.)
+  - "inning" — inning number  
+  - "event" — outcome of the at-bat (Single, Double, Walk, Home Run, etc.)
 
 
 ## Data Cleaning & Preprocessing
 The dataset was cleaned to focus on **offensive events**:
 
 - Dropped irrelevant columns  
-- Standardized all out-type events (Flyout, Lineout, Strikeout, etc.) to `"Out"`  
-- Removed all plays where `event == "Out"`  
+- Standardized all out-type events (Flyout, Lineout, Strikeout, etc.) to "Out"  
+- Removed all plays where "event == Out"  
 - Sorted remaining events by inning and event  
-- Assigned numeric codes to events for plotting purposes (e.g., Single → 4, Home Run → 2)
+- Assigned numeric codes to events for plotting purposes (e.g., Single = 4, Home Run = 2)
 
 
 ## Visualizations
