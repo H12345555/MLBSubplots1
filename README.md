@@ -19,6 +19,7 @@ The dataset was cleaned to focus on offensive events by performing the follwing 
 - Removed all plays where "event == Out"  
 - Sorted remaining events by inning and event  
 - Assigned numeric codes to events for plotting purposes (e.g., Single = 4, Home Run = 2)
+- Number of outcomes analyzed was reduced from the initial >180,000 to just the first 100 events of the season.
 
 
 ## Visualizations
