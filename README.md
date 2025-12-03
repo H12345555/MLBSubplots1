@@ -13,8 +13,7 @@ This project analyzes **Major League Baseball (MLB) 2019 season at-bat data** us
 
 
 ## Data Cleaning & Preprocessing
-The dataset was cleaned to focus on **offensive events**:
-
+The dataset was cleaned to focus on offensive events:
 - Dropped irrelevant columns  
 - Standardized all out-type events (Flyout, Lineout, Strikeout, etc.) to "Out"  
 - Removed all plays where "event == Out"  
